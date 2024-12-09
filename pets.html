@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pets Available - Pet Adoption</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Available Pets for Adoption</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="pets.html">Pets Available</a>
+      <a href="adoption-process.html">Adoption Process</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <div class="pet-gallery">
+    <div class="pet" data-name="Labrador Retriever" data-age="10-14 years" data-breed="Friendly, outgoing, and good with families." data-adoption="Available in most urban shelters and from breeders.">
+      <img src="Labrador Retriever(1).jpeg" alt="Labrador Retriever">
+    </div>
+    <div class="pet" data-name="Indian Pariah Dog" data-age="12-16 years" data-breed="Hardy, intelligent, and low-maintenance." data-adoption="Widely available for adoption. Often rescued as strays or from NGOs.">
+      <img src="Indian Pariah Dog(2).jpg" alt="Indian Pariah Dog">
+    </div>
+    <div class="pet" data-name="Golden Retriever" data-age="10-12 years" data-breed="Loyal, playful, and great for therapy." data-adoption="Can be adopted from breeders or rescue groups.">
+      <img src="Golden Retriever(3).jpeg" alt="Golden Retriever">
+    </div>
+    <div class="pet" data-name="German Shepherd" data-age="9-13 years" data-breed="Intelligent, protective, and versatile." data-adoption="Available at breed-specific rescues or through reputable breeders.">
+      <img src="German Shepherd(4).jpg" alt="German Shepherd">
+    </div>
+    <div class="pet" data-name="Pug" data-age="12-15 years" data-breed="Affectionate, small-sized, and adaptable to apartments." data-adoption="Commonly found in adoption drives or through pet adoption websites.">
+      <img src="pug(5).jpg" alt="Pug">
+    </div>
+    <div class="pet" data-name="Beagle" data-age="12-15 years" data-breed="Curious, merry, and great for families with kids." data-adoption="Available from breeders and rescue organizations.">
+      <img src="Beagle(6).jpg" alt="Beagle">
+    </div>
+    <div class="pet" data-name="Rottweiler" data-age="8-10 years" data-breed="Strong, confident, and protective." data-adoption="Found in breed-specific rescues or shelters.">
+      <img src="Rottweiler(7).jpeg" alt="Rottweiler">
+    </div>
+    <div class="pet" data-name="Cocker Spaniel" data-age="12-15 years" data-breed="Gentle, friendly, and great for indoors." data-adoption="Can be adopted from rescues or bought from breeders.">
+      <img src="Cocker Spaniel(8).jpeg" alt="Cocker Spaniel">
+    </div>
+    <div class="pet" data-name="Dachshund" data-age="12-16 years" data-breed="Playful, energetic, and affectionate." data-adoption="Available at adoption centers or through online pet portals.">
+      <img src="Dachshund(9).jpg" alt="Dachshund">
+    </div>
+    <div class="pet" data-name="Doberman Pinscher" data-age="10-13 years" data-breed="Alert, fearless, and intelligent." data-adoption="Found in shelters or through breed-specific rescues.">
+      <img src="Doberman Pinscher(10).jpeg" alt="Doberman Pinscher">
+    </div>
+  </div>
+
+  <!-- Modal for pet details -->
+  <div class="modal" id="petModal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img id="modalImage" alt="Pet Image">
+      <h2 id="modalName"></h2>
+      <p id="modalAge"></p>
+      <p id="modalBreed"></p>
+      <p id="modalAdoption"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Pet Adoption Center. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
